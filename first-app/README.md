@@ -1,5 +1,11 @@
 # Learn nestjs
 
+Refer `README-original.md` for origianl readme created withe nest cli tool on the project initialization.
+
+# TODO:
+
+Start doing from [this timestamp](https://youtu.be/2n3xS89TJMI?t=2219).
+
 Source: https://youtu.be/2n3xS89TJMI
 
 `nestjs` is just an abstraction layer above expressjs.
