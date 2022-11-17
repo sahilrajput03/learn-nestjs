@@ -27,7 +27,7 @@ npm run start 		# prod
 Other Utility commands
 
 ```bash
-# generate module named `users` @ /src/users.module.ts    (Also: Updates /src/app.module.ts)
+# generate module named `users` @ /src/users/users.module.ts    (Also: Updates /src/app.module.ts)
 nest g module users
 
 # generate controller named `users` @ /src/users/users.controller.ts and test file @ /src/users/users.controller.spec.ts   (Also: Updates /src/users/users.module.ts)
