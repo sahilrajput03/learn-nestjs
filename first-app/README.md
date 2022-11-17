@@ -27,13 +27,13 @@ npm run start 		# prod
 Other Utility commands
 
 ```bash
-# generate a module named users
+# generate module named `users` @ /src/users.module.ts    (Also: Updates /src/app.module.ts)
 nest g module users
 
-# generate controller users
+# generate controller named `users` @ /src/users/users.controller.ts and test file @ /src/users/users.controller.spec.ts   (Also: Updates /src/users/users.module.ts)
 nest g controller users
 
-# generate service users
+# generate service named `users` @ /src/users/users.service.ts and a test file @ /src/users/users.service.spec.ts   (Also: Updates /src/users/users.module.ts)
 nest g service users
 ```
 
