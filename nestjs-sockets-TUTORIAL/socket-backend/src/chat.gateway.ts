@@ -28,7 +28,7 @@ export class ChatGateway {
   }
 
   @SubscribeMessage('events')
-  handleEvent(@MessageBody() data: string,@ConnectedSocket() client: Socket): string {
+  handleEvent(@MessageBody() data: string, @ConnectedSocket() client: Socket): string {
     // Docs: It's possible to emit messages using a library-specific approach, for example:
     // Docs: client.emit()
 
