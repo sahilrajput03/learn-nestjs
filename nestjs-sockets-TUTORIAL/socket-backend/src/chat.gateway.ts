@@ -1,5 +1,7 @@
 import { MessageBody, SubscribeMessage, WebSocketGateway, WebSocketServer, ConnectedSocket } from "@nestjs/websockets";
 
+// Docs: https://docs.nestjs.com/websockets/gateways
+
 @WebSocketGateway()
 export class ChatGateway {
   // Docs: You may want to have a direct access to the native, platform-specific server instance, so use the @WebSocketServer() decorator:
