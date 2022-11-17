@@ -10,11 +10,6 @@ export class ChatGateway {
     this.server.emit('message', message);
   }
 
-  @SubscribeMessage('others')
-  handleMessage(client, data): void {
-    this.server.emit('message', message);
-  }
-
   // Passing `property key` to the decorator to extract it from the incoming message body:
   @SubscribeMessage('events')
   handleEvent(@MessageBody('id') id: number): number {
