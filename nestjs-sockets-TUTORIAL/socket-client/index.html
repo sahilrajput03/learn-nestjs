@@ -16,7 +16,12 @@
     <button onclick="handleSubmitNewMessage()">Submit</button>
   </div>
 
-  <script src="https://cdn.socket.io/4.5.0/socket.io.min.js" integrity="sha384-7EyYLQZgWBi67fBtVxw60/OWl1kjsfrPFcaU0pp0nAh+i8FD068QogUvg85Ewy1k" crossorigin="anonymous"></script>
+
+  <!-- Version 2.4.1 (for this project{verify the socket.io used in backend by navigating to: `socket-backend/node_modules/@nestjs/platform-socket.io/package.json` and looking for dependency version in "socket.io" under dependency list.}) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.4.0/socket.io.min.js" integrity="sha512-gfppNkmmwLyyV/BXmzS9uWWbjxe0owp9N3wx9NeGmIHkFOiRM0EMmQte753JyYZd9uzIbjuSqPOvME0SvADXhw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Version 4.5.2 (additional for temporary testing with other projects ~Sahil) -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.2/socket.io.js"></script> -->
   <script src="./chat-socket.js"></script>
 </body>
 
